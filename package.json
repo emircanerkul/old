@@ -1,0 +1,33 @@
+{
+  "name": "elitegamers-net",
+  "version": "0.1.1",
+  "description": "Elitegamers.net Website",
+  "scripts": {
+    "resizer": "node resizer.js",
+    "dev": "node_modules/.bin/vuepress dev src",
+    "prebuild": "npm install && npm --prefix src/.vuepress/theme install src/.vuepress/theme",
+    "build": "node_modules/.bin/vuepress build src",
+    "postbuild": "src/.vuepress/theme/node_modules/.bin/vuepress-sitemap -H https://elitegamers.net -d src/.vuepress/dist"
+  },
+  "keywords": [
+    "vuepress",
+    "vuepress-theme",
+    "site",
+    "blog",
+    "markdown",
+    "static",
+    "vuejs"
+  ],
+  "authors": [
+    "Emircan ERKUL <develop@emircanerkul.com> (https://emircanerkul.com)",
+    "Alan Ktquez <ktquez@gmail.com> (https://ktquez.com/)"
+  ],
+  "homepage": "https://elitegamers.net",
+  "devDependencies": {
+    "vuepress": "^0.14.2"
+  },
+  "dependencies": {
+    "elitegamers-net-vuepress-theme-ktquez": "file:src/.vuepress/theme",
+    "resize-img": "^2.0.0"
+  }
+}

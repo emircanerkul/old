@@ -1,0 +1,10 @@
+node_modules
+*.log
+.npmrc
+.firebase
+.firebaserc
+firebase.json
+src/.vuepress/dist
+.DS_Store
+.history
+/src/.vuepress/public/images
