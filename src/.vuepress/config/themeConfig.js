@@ -13,7 +13,7 @@ module.exports = {
   },
   disqus: 'elitegamers-net',
   url: `https://elitegamers.net`,
-  cdn: '',
+  cdn: 'https://cdn.elitegamers.net',
   blackWhite: true,
   topNavigation: false,
   searchMaxSuggestions: 7,
