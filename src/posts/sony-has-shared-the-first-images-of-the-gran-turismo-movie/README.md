@@ -16,13 +16,13 @@ categories:
 tags:
   - news
   - sony
-created_at: 2023-01-17 17:00
-updated_at: 2023-01-17 17:00
+created_at: 2023-01-07 17:00
+updated_at: 2023-01-07 17:00
 meta:
   - property: og:image
-    content: /images/posts/2022/05/sony-has-shared-the-first-images-of-the-gran-turismo-movie,w_800.png
+    content: /images/posts/2023/01/sony-has-shared-the-first-images-of-the-gran-turismo-movie,w_800.png
   - name: twitter:image
-    content: /images/posts/2022/05/sony-has-shared-the-first-images-of-the-gran-turismo-movie,w_800.png
+    content: /images/posts/2023/01/sony-has-shared-the-first-images-of-the-gran-turismo-movie,w_800.png
 sitemap:
   exclude: false
   changefreq: monthly
