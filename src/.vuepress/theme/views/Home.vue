@@ -11,7 +11,7 @@
           </div>
 
           <div class="column sm-100 mt-15">
-            <ins class="adsbygoogle" style="display:block; margin-bottom: 15px; border-radius: 10px; overflow: hidden;" data-ad-format="fluid" data-ad-layout-key="-fc-33+cf-nw-en" data-ad-client="ca-pub-2293506510878791" data-ad-slot="1137554367"></ins>
+            <ins class="adsbygoogle" style="background: #fff; display:block; margin-bottom: 15px; border-radius: 10px; overflow: hidden;" data-ad-format="fluid" data-ad-layout-key="-fc-33+cf-nw-en" data-ad-client="ca-pub-2293506510878791" data-ad-slot="1137554367"></ins>
           </div>
           
           <div class="column sm-100 mt-15">
