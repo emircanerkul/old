@@ -20,7 +20,7 @@ tags:
   - game
   - epic
 created_at: 2023-01-08 13:15
-updated_at: 2023-01-08 13:15
+updated_at: 2023-01-16 09:00
 meta:
   - property: og:image
     content: /images/posts/2023/01/this-weeks-free-games-from-epic-games,w_800.png
@@ -32,6 +32,18 @@ sitemap:
 ---
 
 We all expect to have a fun time playing the games we play. When we also get these games for free, the enjoyment we get increases even more. That's why Epic Games is loved by so many players. So, what game is Epic Games giving away for free this week?
+
+## January 12 - January 19
+
+As we embark on a new year, we are delighted to announce the availability of two exciting games - First Class Trouble and Gamedec. 
+
+### First Class Trouble
+
+A social deduction party game, where players assume the role of space cruise passengers and must work together to survive a malfunctioning ship AI. However, players must also keep a close eye on their fellow players, as anyone could potentially be a killer robot in disguise. This game offers an aristocratic twist on the popular game Among Us.
+
+### Gamedec
+
+Isometric RPG that features a game detective who must solve crimes across virtual worlds. While the original version of the game may have received mixed reviews, the Definitive Edition offers improved gameplay and features. And the best part is, it is available for free.
 
 ## January 5 - January 12
 
