@@ -2,6 +2,9 @@
 
 Sofware based IPD adjustment. Make sure to use sbs (side-by-side) mode in your VR.
 
+![Website](https://img.shields.io/website?url=https%3A%2F%2Femircanerkul.github.io%2Fipd%2F&up_message=Online!&style=flat-square&label=Use%20Software%20Based%20IPD%20Adjustment)
+
+
 ---
 
 IPD stands for Interpupillary Distance. It is the distance between the center of your pupils when looking straight ahead 12. In virtual reality (VR), IPD is an essential measurement that your VR headset needs for optimal performance 1.
