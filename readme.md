@@ -2,8 +2,7 @@
 
 Sofware based IPD adjustment. Make sure to use sbs (side-by-side) mode in your VR.
 
-![Website](https://img.shields.io/website?url=https%3A%2F%2Femircanerkul.github.io%2Fipd%2F&up_message=Online!&style=flat-square&label=Use%20Software%20Based%20IPD%20Adjustment)
-
+[![Website](https://img.shields.io/website?url=https%3A%2F%2Femircanerkul.github.io%2Fipd%2F&up_message=Online!&style=flat-square&label=Use%20Software%20Based%20IPD%20Adjustment)](https://emircanerkul.github.io/ipd/)
 
 ---
 
