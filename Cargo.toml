@@ -1,0 +1,8 @@
+[package]
+name = "gamificate_image"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+magick_rust = "0.19.1"
+rand = "0.8.5"
