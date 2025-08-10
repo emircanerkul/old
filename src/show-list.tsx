@@ -64,11 +64,7 @@ export default function Command() {
   return (
     <List isLoading={isLoading} searchBarPlaceholder="Filter playlists...">
       {error ? (
-        <List.EmptyView
-          icon={Icon.Warning}
-          title="Failed to load playlists"
-          description={error}
-        />
+        <List.EmptyView icon={Icon.Warning} title="Failed to load playlists" description={error} />
       ) : playlists.length === 0 ? (
         <List.EmptyView
           icon={Icon.Music}
@@ -127,7 +123,7 @@ function TracksList({ playlist }: { playlist: Playlist }) {
             if (t.isURL) return { ...t, exists: false };
             const real = await findExistingPath(t.path);
             return { ...t, realPath: real, exists: !!real };
-          })
+          }),
         );
         setTracks(withMeta);
       } catch (e: any) {
