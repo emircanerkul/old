@@ -2,46 +2,34 @@
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "audacious-player",
   "title": "Audacious Player",
-  "description": "Audacious Player to play music",
+  "description": "Browse playlists from a folder and play them with Audacious CLI",
   "icon": "extension-icon.png",
   "author": "emircanerkul",
   "license": "MIT",
   "commands": [
     {
-      "name": "show-list-and-details",
-      "title": "Show List and Details",
-      "description": "",
-      "mode": "view"
-    },
-    {
-      "name": "run-script",
-      "title": "Run Script",
-      "description": "",
-      "mode": "no-view"
-    },
-    {
-      "name": "typeahead-results",
-      "title": "Typeahead Results",
-      "description": "",
-      "mode": "view"
-    },
-    {
       "name": "show-list",
-      "title": "Show List",
-      "description": "",
+      "title": "Browse Playlists",
+      "description": "Browse playlists from a folder and play them with Audacious",
       "mode": "view"
     }
   ],
-  "tools": [
+  "preferences": [
     {
-      "name": "blank-tool",
-      "title": "Blank tool",
-      "description": ""
+      "name": "playlistsFolder",
+      "type": "directory",
+      "title": "Playlists Folder",
+      "description": "Folder containing your .m3u/.m3u8/.pls playlists",
+      "required": true
     },
     {
-      "name": "tool-with-confirmation",
-      "title": "Tool with confirmation",
-      "description": ""
+      "name": "audaciousBinary",
+      "type": "textfield",
+      "title": "Audacious Binary",
+      "placeholder": "/opt/homebrew/bin/audacious",
+      "default": "/opt/homebrew/bin/audacious",
+      "description": "Full path to the audacious CLI",
+      "required": true
     }
   ],
   "dependencies": {
