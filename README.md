@@ -1,4 +1,4 @@
-# Drupal [Mind-map](https://drupal.emircanerkul.com) [styled] Documentation
+# Drupal [Mind-map](https://emircanerkul.github.io/drupal-mind-map/) [styled] Documentation
 
 Mind-map styled Enriched Drupal Documentation. All documantation forked with [drupal-to-md](https://github.com/emircanerkul/drupal-to-md) from [Drupal Docs](https://www.drupal.org/docs) on 13 January 2023.
 
@@ -11,17 +11,23 @@ Click [here](https://www.drupal.org/project/mindmap) to visit Drupal Module page
 * `git clone https://github.com/emircanerkul/drupal-mind-map.git`
 * `cd simple-mind-map`
 * `npm i`
-* `npm link`
 * `cd ..`
 * `cd web`
 * `npm i`
-* `npm link simple-mind-map`
 * `npm run serve`
 
 ## Build
 
 * **For Anywhere**: `npm run build`
 * **For Drupal Module**: `npm run dbuild`
+
+## Deployment
+
+The site is deployed to GitHub Pages automatically by the
+[`deploy-pages`](.github/workflows/deploy-pages.yml) GitHub Actions workflow on every
+push to `main`. The workflow builds the `web` app into `docs/` and publishes it as a
+static page. In the repository settings, *Settings → Pages → Source* must be set to
+**GitHub Actions**.
 
 ## Special Note & Thanks
 
