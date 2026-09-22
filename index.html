@@ -2,11 +2,8 @@
 <html lang="tr">
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>Cool Text</title>
-
-	<link rel="stylesheet" href="assets/css/normalize.css">
-	<link rel="stylesheet" href="assets/css/skeleton.css">
-	<link rel="stylesheet" href="assets/css/main.css">
 </head>
 <body>
 	<div class="container">
@@ -16,7 +13,7 @@
 		<div id="content" class="row">
 			<div class="row">
 				<div class="columns eight offset-by-two style-box">
-					<input id="main" class="u-full-width" type="text" placeholder="Write here">
+					<input id="main" class="u-full-width" type="text" placeholder="Write here" autocomplete="off" autocapitalize="off" spellcheck="false">
 				</div>
 			</div>
 
@@ -24,8 +21,6 @@
 		</div>
 	</div>
 
-	<script type="text/javascript" src="assets/js/jquery.min.js"></script>
-	<script type="text/javascript" src="assets/js/clipboard.min.js"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+	<script type="module" src="/src/main.js"></script>
 </body>
 </html>
